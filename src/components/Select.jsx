@@ -2,10 +2,10 @@ import React from 'react'
 import { useId } from 'react'
 
 function Select({
-    options,
+    option,
     label,
     className = "",
-    ...props,
+    ...props
 },ref) 
 
 {
@@ -24,8 +24,8 @@ function Select({
             
         
         >
-            {options?.map((options)=>(
-                <options key={options} value = {options}>{options}</options>
+            {option?.map((option)=>(
+                <option key={option} value = {option}>{option}</option>
             )) }
 
         </select>

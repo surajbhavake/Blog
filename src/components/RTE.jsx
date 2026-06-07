@@ -6,7 +6,9 @@ export default function RTE({
     name,
     control,
     label,defaultValue =''
+    
 }) 
+
 {
   return (
     <div className='w-full'>
