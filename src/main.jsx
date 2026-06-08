@@ -7,13 +7,13 @@ import { Provider } from 'react-redux'
 import store from './store/store.js'
 
 import { BrowserRouter } from 'react-router-dom'
-import PostForm from './components/post-form/PostForm.jsx'
+import PostCard from './components/PostCard.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <PostForm />
+        <PostCard />
       </BrowserRouter>
     </Provider>
   </React.StrictMode>
